@@ -1,0 +1,31 @@
+{
+  "name": "winston-couchbase",
+  "version": "0.1.0",
+  "description": "A Couchbase transport for Winston",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/vows test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/belbis/winston-couchbase"
+  },
+  "dependencies": {
+    "vows": "0.7.x",
+    "winston": "0.7.x",
+    "cycle": "^1.0.0",
+    "couchbase": ">=2.0.0-dp1",
+    "node-uuid": "^1.0.0"
+  },
+  "keywords": [
+    "winston",
+    "couchbase",
+    "transport"
+  ],
+  "author": "Michael Dreibelbis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/belbis/winston-couchbase/issues"
+  },
+  "homepage": "https://github.com/belbis/winston-couchbase"
+}
